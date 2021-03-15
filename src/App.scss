@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+
+$color1: #ADE8F4;
+
+body {
+  background-color: lighten($color1, 10%);
+}
+
+.weather-wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
